@@ -1,0 +1,8 @@
+.team-availability{font-size:10px;}
+.availability{padding:6px 10px;}
+.team-availability i,.availability i{font-size:7px;}
+.tech-card .avatar{width:36px;height:36px;border:1px solid #dfe8f2;}
+.data-table .tech-card strong{font-size:11px;color:#263f59;}
+.data-table .tech-card small{font-size:9px;}
+.panel > .table-wrap{border-radius:8px;}
+.recommendation{line-height:1.55;}
