@@ -11,9 +11,13 @@ Ocorrências recebidas por canais diferentes podem ficar dispersas, dificultando
 ## O que é possível demonstrar
 
 - Painel com indicadores e gráficos calculados a partir dos registros disponíveis.
-- Central com busca ampliada por chamado, pessoa, local ou técnico, filtros por prioridade, categoria, status e período, e exportação CSV da seleção atual.
-- Cadastro de equipamentos derivado do histórico, com situação da fila, contagem de chamados e histórico por ativo.
-- Abertura de ocorrência com validação e prioridade calculada por regras explicáveis.
+- Central com busca ampliada por chamado, pessoa, local ou técnico, filtros por prioridade, categoria, status e período, exportação CSV e despacho em lote dos chamados selecionados, com evento de auditoria por registro.
+- Relatório CSV de passagem de turno com resumo das emergências, chamados sem técnico, prazos e último evento, gerado a partir da fila atual.
+- Cadastro próprio de equipamentos com edifício, localização, modelo, série, região, situação operacional, data de instalação e contrato; ativos cadastrados sem ocorrência também aparecem no inventário.
+- Formalização de equipamentos que só existiam no histórico, edição do cadastro, filtros por condição e identificação e preenchimento contextual de edifício/endereço/região ao abrir chamado pelo ativo.
+- Histórico de ocorrências e chamados ativos conectado ao cadastro técnico do equipamento.
+- Abertura e edição de ocorrência com cliente separado do edifício, validação, prioridade calculada por regras explicáveis e transições de status controladas.
+- Ordenação da central por data, prioridade ou prazo; classificação desacoplada em `js/classification.js` e coberta por testes nativos Node (`node --test tests/classification.test.cjs`).
 - Detalhes do chamado, atribuição de técnico, atualização de status, observações e resumo obrigatório para conclusão.
 - Procedimento digital por chamado, com etapas persistidas, histórico de conclusão/reabertura e bloqueio do encerramento enquanto houver etapas pendentes.
 - Relatório de serviço imprimível/salvável em PDF após conclusão, com ativo, local, técnico, pedido, checklist, solução e linha do tempo.

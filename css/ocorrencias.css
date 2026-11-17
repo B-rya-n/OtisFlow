@@ -20,3 +20,12 @@
 .data-table tbody tr:has(.priority.critical):hover{background:#fff4f2;}
 @media(max-width:1100px){.filter-row{grid-template-columns:minmax(200px,1.4fr) repeat(2,minmax(120px,1fr));}}
 @media(max-width:780px){.filter-row{grid-template-columns:repeat(2,minmax(0,1fr));padding:9px;}.filter-row .search-box{grid-column:1/-1;}}
+/* Despacho em lote: ações operacionais sobre a seleção filtrada. */
+.bulk-toolbar{display:none;align-items:center;flex-wrap:wrap;gap:10px;margin:-2px 0 16px;padding:13px 15px;border:1px solid #cbdcf0;border-radius:10px;background:linear-gradient(110deg,#f1f6fc,#f8fbff)}
+.bulk-toolbar.is-active{display:flex}
+.bulk-toolbar strong{color:#1e4268;font-size:11px;margin-right:4px}
+.bulk-toolbar label{font-size:10px;color:#657a90}
+.bulk-toolbar .select-field{min-width:210px;flex:1}
+.data-table input[type=checkbox]{width:16px;height:16px;accent-color:#1f6ed4;cursor:pointer;vertical-align:middle}
+.data-table input[type=checkbox]:disabled{cursor:not-allowed;opacity:.38}
+@media(max-width:560px){.bulk-toolbar{align-items:stretch}.bulk-toolbar strong{width:100%}.bulk-toolbar label{width:100%}.bulk-toolbar .select-field{min-width:100%;width:100%}.bulk-toolbar .button{flex:1}}
