@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../css/sla.css">
 </head>
 <body data-page="sla">
+  <a class="skip-link" href="#page-content">Pular para o conteúdo principal</a>
   <div class="app-shell">
     <aside class="sidebar" id="sidebar">
       <a class="brand" href="../index.html" aria-label="OtisFlow — início">
@@ -27,6 +28,15 @@
       </nav>
       <div class="sidebar-bottom">
         <div class="demo-note"><span class="demo-dot"></span><div><strong>Ambiente demonstrativo</strong><small>Base fictícia · armazenamento local</small></div></div>
+        <div class="data-tools" aria-label="Gerenciar dados locais">
+          <strong>Dados da demonstração</strong>
+          <div class="data-tools-actions">
+            <button type="button" data-action="export-backup" title="Baixar cópia dos registros deste navegador">Exportar backup</button>
+            <button type="button" data-action="import-backup" title="Restaurar um backup previamente exportado">Importar backup</button>
+          </div>
+          <button type="button" class="reset-demo" data-action="reset-demo">Restaurar dados de exemplo</button>
+          <input type="file" id="backup-file" accept=".json,application/json" hidden aria-label="Selecionar arquivo de backup JSON">
+        </div>
         <div class="user-card"><div class="avatar">OF</div><div class="user-info"><strong id="profile-name">Operador</strong><small>Perfil de demonstração</small></div><select id="profile-select" aria-label="Perfil de demonstração"><option value="Operador">Operador</option><option value="Técnico">Técnico</option><option value="Gestor">Gestor</option></select></div>
       </div>
     </aside>

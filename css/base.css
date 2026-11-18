@@ -40,3 +40,18 @@ body{background:radial-gradient(ellipse at 80% -25%,#e3edf8 0,transparent 40%),v
 
 .service-checklist{margin-top:20px;padding:15px;border:1px solid #e1e8ef;border-radius:10px;background:#fbfcfe}.service-checklist-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}.service-checklist-head h3{margin:0;color:#1d3854;font:700 12px "Segoe UI",Arial,sans-serif}.service-checklist-head p{margin:4px 0 0;color:#7e8fa1;font-size:10px}.checklist-progress{display:grid;place-items:center;min-width:39px;height:31px;padding:0 8px;border-radius:8px;background:#edf4ff;color:#2865bb;font-size:11px;font-weight:800}.service-checklist-list{display:grid}.service-check-item{display:flex;align-items:flex-start;gap:10px;padding:10px 2px;border-top:1px solid #edf0f4;color:#40566e;font-size:10px;line-height:1.5;cursor:pointer}.service-check-item input{width:15px;height:15px;margin:0;accent-color:#16815e;flex:none}.service-check-item.is-done>span{color:#718096}.service-check-item small{display:block;margin-top:3px;color:#8a98a7;font-size:9px}.service-check-item:has(input:disabled){cursor:default}.service-checklist-foot{padding-top:9px;color:#8190a0;font-size:9px;line-height:1.5}.detail-actions{flex-wrap:wrap}.detail-actions .button{white-space:nowrap}
 @media(max-width:520px){.service-checklist{padding:12px}.service-checklist-head{align-items:flex-start}.detail-actions .button{flex:1}}
+
+/* Controles locais e navegação acessível */
+.skip-link{position:fixed;left:12px;top:-70px;z-index:200;background:#fff;color:#12335c;padding:10px 14px;border-radius:8px;box-shadow:0 5px 16px #101e3340}
+.skip-link:focus{top:12px}
+.data-tools{display:grid;gap:8px;margin:10px 0 9px;padding:11px 9px;border:1px solid #ffffff24;border-radius:9px;background:#ffffff0a}
+.data-tools>strong{font-size:10px;color:#dbe8f7;letter-spacing:.15px}
+.data-tools-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.data-tools button{border:1px solid #7a9abb67;border-radius:6px;padding:8px 4px;background:#ffffff0b;color:#e4f0fe;font:600 10px "Segoe UI",Arial,sans-serif;cursor:pointer;transition:background .15s}
+.data-tools button:hover,.data-tools button:focus-visible{background:#315677}
+.data-tools .reset-demo{border:none;color:#a5bdd4;background:transparent;text-decoration:underline;text-underline-offset:2px;padding:4px 2px;font-size:9px}
+.data-tools .reset-demo:hover{color:white;background:transparent}
+@media(max-width:780px){.sidebar-bottom{position:static}.sidebar{overflow-y:auto}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+
+.sidebar{overflow-y:auto;overscroll-behavior:contain}
