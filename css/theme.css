@@ -1,0 +1,189 @@
+/* Tema escuro do OtisFlow. Carregado após o CSS de cada página. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --navy: #101c2b;
+  --navy-2: #172a40;
+  --blue: #78a9f5;
+  --blue-soft: #1c3452;
+  --ink: #e5edf6;
+  --muted: #a1b0c1;
+  --line: #2b3a4c;
+  --canvas: #111a27;
+  --white: #192535;
+  --green: #63c99a;
+  --green-soft: #1d3a34;
+  --amber: #f0bd69;
+  --amber-soft: #3b3020;
+  --red: #f0827d;
+  --red-soft: #402a30;
+  --shadow: 0 8px 26px rgba(0,0,0,.22);
+}
+
+:root[data-theme="dark"] body { color: var(--ink); }
+:root[data-theme="dark"] .sidebar { background: #101c2b; }
+:root[data-theme="dark"] .topbar,
+:root[data-theme="dark"] .app-footer,
+:root[data-theme="dark"] .panel,
+:root[data-theme="dark"] .metric-card,
+:root[data-theme="dark"] .modal,
+:root[data-theme="dark"] .asset-detail-summary > div { background: var(--white); border-color: var(--line); }
+:root[data-theme="dark"] .topbar,
+:root[data-theme="dark"] .app-footer,
+:root[data-theme="dark"] .panel,
+:root[data-theme="dark"] .metric-card { color: var(--ink); }
+:root[data-theme="dark"] .page-head h1,
+:root[data-theme="dark"] .panel-head h2,
+:root[data-theme="dark"] .section-title,
+:root[data-theme="dark"] .metric-value,
+:root[data-theme="dark"] .detail-hero h2,
+:root[data-theme="dark"] .side-card h3,
+:root[data-theme="dark"] .history-item strong,
+:root[data-theme="dark"] .tech-card strong,
+:root[data-theme="dark"] .asset-detail-summary strong,
+:root[data-theme="dark"] .prevention-row strong { color: #e5edf6; }
+:root[data-theme="dark"] .page-head p,
+:root[data-theme="dark"] .panel-head p,
+:root[data-theme="dark"] .metric-label,
+:root[data-theme="dark"] .metric-foot,
+:root[data-theme="dark"] .cell-sub,
+:root[data-theme="dark"] .muted,
+:root[data-theme="dark"] .detail-meta label,
+:root[data-theme="dark"] .detail-meta span,
+:root[data-theme="dark"] .detail-meta strong,
+:root[data-theme="dark"] .detail-description,
+:root[data-theme="dark"] .asset-detail-address,
+:root[data-theme="dark"] .history-item p,
+:root[data-theme="dark"] .history-item time,
+:root[data-theme="dark"] .prevention-row small,
+:root[data-theme="dark"] .recurrence-card p { color: #a7b5c5; }
+:root[data-theme="dark"] .button-secondary { background: #202e3f; border-color: #3a4a5e; color: #d7e2ef; }
+:root[data-theme="dark"] .button-secondary:hover { background: #293a4e; border-color: #58708d; }
+:root[data-theme="dark"] .button-primary { background: #2869bc; color: #fff; }
+:root[data-theme="dark"] .button-danger,
+:root[data-theme="dark"] .delete-confirmation { background: #38262c; border-color: #624047; color: #f0c7c6; }
+:root[data-theme="dark"] .delete-confirmation > span { background: #56333a; color: #ff9a93; }
+:root[data-theme="dark"] .field,
+:root[data-theme="dark"] .select-field,
+:root[data-theme="dark"] .textarea-field { background: #111c2a; color: #e5edf6; border-color: #3a4a5e; }
+:root[data-theme="dark"] .field::placeholder,
+:root[data-theme="dark"] .textarea-field::placeholder { color: #8292a5; }
+:root[data-theme="dark"] .form-field label,
+:root[data-theme="dark"] .data-table td,
+:root[data-theme="dark"] .cell-main,
+:root[data-theme="dark"] .tech-card strong,
+:root[data-theme="dark"] .asset-state { color: #c1cfdd; }
+:root[data-theme="dark"] .data-table th { background: #1c2a3a; color: #a5b5c7; border-color: var(--line); }
+:root[data-theme="dark"] .data-table td,
+:root[data-theme="dark"] .data-table tr:last-child td,
+:root[data-theme="dark"] .detail-hero,
+:root[data-theme="dark"] .form-section-label,
+:root[data-theme="dark"] .recurrence-detail,
+:root[data-theme="dark"] .service-check-item,
+:root[data-theme="dark"] .prevention-row,
+:root[data-theme="dark"] .asset-audit { border-color: var(--line); }
+:root[data-theme="dark"] .data-table tbody tr:hover { background: #202f41; }
+:root[data-theme="dark"] .data-table tbody tr:has(.priority.critical),
+:root[data-theme="dark"] .data-table tbody tr:has(.priority.critical):hover { background: #35272d; }
+:root[data-theme="dark"] .filter-row,
+:root[data-theme="dark"] .bulk-toolbar,
+:root[data-theme="dark"] .service-checklist,
+:root[data-theme="dark"] .incident-flow,
+:root[data-theme="dark"] .asset-audit,
+:root[data-theme="dark"] .sla-config .form-field,
+:root[data-theme="dark"] .wait-rule-grid .form-field,
+:root[data-theme="dark"] .wait-escalation-panel .sla-config .form-field { background: #172434; border-color: var(--line); }
+:root[data-theme="dark"] .bulk-toolbar strong,
+:root[data-theme="dark"] .bulk-toolbar label,
+:root[data-theme="dark"] .service-check-item,
+:root[data-theme="dark"] .service-checklist-head h3,
+:root[data-theme="dark"] .detail-hero h2 { color: #dce7f2; }
+:root[data-theme="dark"] .callout,
+:root[data-theme="dark"] .priority-preview,
+:root[data-theme="dark"] .recommendation,
+:root[data-theme="dark"] .sla-clock,
+:root[data-theme="dark"] .asset-detail-summary,
+:root[data-theme="dark"] .empty-icon { background: #1e3045; border-color: #344a63; color: #c8d8e8; }
+:root[data-theme="dark"] .priority-explainer,
+:root[data-theme="dark"] .emergency-panel { background: #35272d; border-color: #5a3d43; color: #f0c7c6; }
+:root[data-theme="dark"] .emergency-heading h3,
+:root[data-theme="dark"] .emergency-check strong { color: #f2d8d6; }
+:root[data-theme="dark"] .emergency-copy,
+:root[data-theme="dark"] .emergency-heading small,
+:root[data-theme="dark"] .emergency-check small { color: #c5a5a7; }
+:root[data-theme="dark"] .status-pill.open,
+:root[data-theme="dark"] .status-pill.waiting,
+:root[data-theme="dark"] .status-pill.cancelled,
+:root[data-theme="dark"] .priority.low { background: #293646; color: #c0ccd8; }
+:root[data-theme="dark"] .status-pill.assigned,
+:root[data-theme="dark"] .status-pill.progress,
+:root[data-theme="dark"] .priority.medium { background: #203a59; color: #9fc5ff; }
+:root[data-theme="dark"] .status-pill.parts,
+:root[data-theme="dark"] .priority.high,
+:root[data-theme="dark"] .sla-pill.soon,
+:root[data-theme="dark"] .repeat-level { background: #3b3020; color: #f0bd69; }
+:root[data-theme="dark"] .status-pill.done,
+:root[data-theme="dark"] .sla-pill.normal { background: #1d3a34; color: #79d6aa; }
+:root[data-theme="dark"] .priority.critical,
+:root[data-theme="dark"] .sla-pill.overdue,
+:root[data-theme="dark"] .repeat-level.high { background: #402a30; color: #ff9992; }
+:root[data-theme="dark"] .recurrence-card,
+:root[data-theme="dark"] .prevention-panel { background: linear-gradient(120deg,#192535 55%,#28291f); border-color: #424238; }
+:root[data-theme="dark"] .asset-state.operational { color: #79d6aa; }
+:root[data-theme="dark"] .asset-state.maintenance { color: #f0bd69; }
+:root[data-theme="dark"] .asset-state.offline { color: #ff9992; }
+:root[data-theme="dark"] .workflow-cancelled { background: #293646; color: #c0ccd8; }
+:root[data-theme="dark"] .modal-head,
+:root[data-theme="dark"] .modal-footer { border-color: var(--line); }
+:root[data-theme="dark"] .modal-head h2 { color: #e5edf6; }
+:root[data-theme="dark"] .modal-head p,
+:root[data-theme="dark"] .modal-close { color: #a7b5c5; }
+:root[data-theme="dark"] .modal-close { background: #293646; }
+:root[data-theme="dark"] .empty-state strong { color: #d2deeb; }
+:root[data-theme="dark"] .empty-state,
+:root[data-theme="dark"] .empty-state p,
+:root[data-theme="dark"] .field-hint,
+:root[data-theme="dark"] .section-subtitle { color: #a1b0c1; }
+:root[data-theme="dark"] .history-list:before { background: #3a4a5e; }
+:root[data-theme="dark"] .history-item:before { border-color: #192535; }
+:root[data-theme="dark"] .donut:after { background: #192535; }
+:root[data-theme="dark"] .line-chart .grid-line { stroke: #344458; }
+:root[data-theme="dark"] .line-chart text,
+:root[data-theme="dark"] .legend-item,
+:root[data-theme="dark"] .legend-line { fill: #a7b5c5; color: #a7b5c5; }
+:root[data-theme="dark"] .bar-track { background: #2a394b; }
+:root[data-theme="dark"] .app-footer { color: #a1b0c1; }
+:root[data-theme="dark"] .footer-brand { color: #d2deeb; }
+:root[data-theme="dark"] .breadcrumbs,
+:root[data-theme="dark"] .breadcrumbs strong,
+:root[data-theme="dark"] .today-label { color: #c2cfdd; }
+:root[data-theme="dark"] .crumb-root { color: #a1b0c1; }
+:root[data-theme="dark"] .callout strong { color: #b8d2f1; }
+
+/* Contraste consistente nos componentes próprios do painel e do inventário. */
+:root[data-theme="dark"] .risk-alert-panel,
+:root[data-theme="dark"] .recurrence-alert-panel,
+:root[data-theme="dark"] .insight-item,
+:root[data-theme="dark"] .workflow-step { background: #192535; border-color: var(--line); color: #dce7f2; }
+:root[data-theme="dark"] .insight-heading h2,
+:root[data-theme="dark"] .workflow-step strong,
+:root[data-theme="dark"] .workflow-step-count,
+:root[data-theme="dark"] .recurrence-card h3,
+:root[data-theme="dark"] .dashboard-grid .detail-meta strong,
+:root[data-theme="dark"] .data-table .tech-card strong { color: #e5edf6; }
+:root[data-theme="dark"] .risk-alert-panel > p,
+:root[data-theme="dark"] .recurrence-alert-panel > p,
+:root[data-theme="dark"] .insight-kicker,
+:root[data-theme="dark"] .insight-item small,
+:root[data-theme="dark"] .insight-item > b,
+:root[data-theme="dark"] .workflow-step small,
+:root[data-theme="dark"] .live-local { color: #a7b5c5; }
+:root[data-theme="dark"] .risk-alert-panel .risk-icon { background: #402a30; color: #ff9992; }
+:root[data-theme="dark"] .recurrence-alert-panel .repeat-icon { background: #3b3020; color: #f0bd69; }
+:root[data-theme="dark"] .asset-state.active { color: #f0bd69; }
+:root[data-theme="dark"] .data-table .id-cell { color: #dce7f2 !important; }
+:root[data-theme="dark"] .urgent-title { color: #e5edf6; }
+:root[data-theme="dark"] .urgent-row:hover .urgent-title { color: #9fc5ff; }
+
+.theme-toggle { min-width: 76px; }
+.theme-toggle > span:first-child { font-size: 15px; line-height: 1; }
+@media (max-width: 520px) { .theme-toggle { min-width: 36px; width: 36px; padding: 8px !important; } .theme-toggle .theme-label { display: none; } }

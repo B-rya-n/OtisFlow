@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338 339" role="img" aria-label="Elevador OtisFlow">
+  <g stroke="#10356f" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M103 3h132v43H103z" fill="#f7fbff" stroke-width="8"/>
+    <path d="M141 35V12m-13 13 13-13 13 13" fill="none" stroke="#2468d8" stroke-width="9"/>
+    <path d="M195 12v23m-13-13 13 13 13-13" fill="none" stroke="#f0a346" stroke-width="9"/>
+
+    <path d="M45 46h248v285H45z" fill="#2468d8" stroke-width="8"/>
+    <path d="M98 57h142v36H98z" fill="#fff5df" stroke-width="8"/>
+    <rect x="158" y="68" width="22" height="14" rx="3" fill="#f0a346" stroke="none"/>
+
+    <path d="M79 105h180v226H79z" fill="#3b9fe8" stroke-width="8"/>
+    <path d="M167 105v226" fill="none" stroke-width="8"/>
+    <path d="M153 181v71m29-71v71" fill="none" stroke-width="7"/>
+
+    <!-- Botoeira esquerda: chamada para subir -->
+    <path d="m52 174 10-10 10 10" fill="none" stroke-width="7"/>
+    <!-- Botoeira direita: chamada para descer; fica acima e separada dos botões -->
+    <path d="m266 221 10 10 10-10" fill="none" stroke-width="7"/>
+    <circle cx="62" cy="197" r="11" fill="#f0a346" stroke-width="7"/>
+    <circle cx="276" cy="197" r="11" fill="#f0a346" stroke-width="7"/>
+    </g>
+</svg>
+
+
+
+

@@ -1,0 +1,28 @@
+.brand-mark { display: block; flex: none; width: 46px; height: 46px; padding: 0; border: 0; border-radius: 0; background: transparent; object-fit: contain; }
+/* Ajustes globais para preservar a leitura e evitar rolagem horizontal acidental. */
+@media (max-width: 780px) {
+  /* Uma regra posterior do breakpoint tablet reabria a margem reservada à sidebar.
+     Em telas compactas, o menu é sobreposto e a área principal deve ocupar a viewport toda. */
+  .main-area {
+    width: 100%;
+    min-width: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .breadcrumbs .crumb-root,
+  .breadcrumbs .crumb-slash { display: none; }
+  .topbar { gap: 8px; }
+  .topbar-left { min-width: 0; }
+  .topbar-actions { min-width: 0; gap: 5px; }
+  .topbar-actions [data-action="new-incident"] {
+    width: 36px;
+    min-width: 36px;
+    padding: 8px !important;
+    font-size: 0 !important;
+  }
+  .topbar-actions [data-action="new-incident"] .button-plus { font-size: 17px; }
+  .recurrence-grid { grid-template-columns: minmax(0, 1fr); }
+}
+

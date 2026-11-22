@@ -1,0 +1,13 @@
+.sla-summary .metric-card{min-height:122px;}
+.sla-config{margin-top:3px;}
+.sla-config .form-field{background:#fbfcfe;}
+.sla-config label{letter-spacing:.4px;text-transform:uppercase;color:#78899a;}
+.sla-unit:after{font-weight:700;top:11px;}
+.sla-summary + .panel .panel-head{margin-bottom:18px;}
+.sla-pill{font-variant-numeric:tabular-nums;}
+.sla-pill.overdue{box-shadow:inset 0 0 0 1px #e9c4c2;}
+.sla-pill.soon{box-shadow:inset 0 0 0 1px #f0d8aa;}
+
+.wait-escalation-panel{margin-top:14px}.wait-rule-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.wait-rule-grid .form-field{border:1px solid #e6ebf0;border-radius:9px;padding:13px;background:#fbfcfe}.wait-rule-grid label{display:block;font-size:10px;color:#718397;margin-bottom:8px}.wait-rule-hint{font-size:9px;color:#8493a2;line-height:1.5;margin-top:10px}.escalation-status{font-size:9px;color:#728398}@media(max-width:560px){.wait-rule-grid{grid-template-columns:1fr}}
+
+.wait-escalation-panel .sla-config{grid-template-columns:repeat(2,minmax(0,1fr))}.wait-escalation-panel .sla-config .form-field{padding:13px;border:1px solid #e6ebf0;border-radius:9px;background:#fbfcfe}.wait-escalation-panel .field-hint{display:block;margin-top:6px}@media(max-width:560px){.wait-escalation-panel .sla-config{grid-template-columns:1fr}}
